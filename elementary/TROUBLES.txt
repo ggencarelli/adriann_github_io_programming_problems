@@ -1,0 +1,3 @@
+Troubles
+
+Exercise 7 - The table prints the same numbers repeatedly. This is a logic problem which is taking me an excessive amount of time to solve.
