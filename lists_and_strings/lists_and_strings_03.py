@@ -2,7 +2,7 @@
 #--------------------------------------------------------------------------------------------------
 # PROBLEM
 #--------------------------------------------------------------------------------------------------
-# Write function that reverses a list, preferably in place.
+# Write a function that checks whether an element occurs in a list.
 #--------------------------------------------------------------------------------------------------
 
 import random
@@ -18,10 +18,14 @@ def build_list():
 
 def main():
     my_list = build_list()
-    my_list.reverse()
-    print("My reversed list is:")
+    my_num = int(input("Enter a number between 1 and 1000: "))
+    match = False
     for i in my_list:
-        print(i)
+        if i == my_num:
+            match = True
+            print(i, "is in the list!")
+    if match == False:
+        print(my_num, "is not in the list!")
 
 if __name__ == "__main__":
     main()
