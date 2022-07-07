@@ -1,3 +1,5 @@
 Troubles
 
-Exercise 7 - The table prints the same numbers repeatedly. This is a logic problem which is taking me an excessive amount of time to solve.
+elementary_07 - The table prints the same numbers repeatedly. This is a logic problem which is taking me an excessive amount of time to solve.
+
+elementary_08 - This prints the same numbers repeatedly due to the structure of the for loops. 
