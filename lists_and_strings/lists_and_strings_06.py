@@ -2,5 +2,18 @@
 #--------------------------------------------------------------------------------------------------
 # PROBLEM
 #--------------------------------------------------------------------------------------------------
-# 
+# Write a function that tests whether a string is a palindrome.
 #--------------------------------------------------------------------------------------------------
+def is_palindrome(string):
+    rev = str(reverse(string))
+    if str == rev:
+        print(string + "'s a palindrome!")
+    else:
+        print(string + "'s not a palindrome!")
+        
+def main()
+    my_string = str(input("Please enter the string to check: "))
+    is_palindrome(my_string)
+    
+if __name__ == '__main__':
+    main()
