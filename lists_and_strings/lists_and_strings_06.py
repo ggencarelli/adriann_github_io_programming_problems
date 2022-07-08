@@ -6,7 +6,6 @@
 #--------------------------------------------------------------------------------------------------
 def is_palindrome(string):
     rev = str(''.join(reversed(string)))
-    print(rev)
     if string == rev:
         print(string + "'s a palindrome!")
     else:
